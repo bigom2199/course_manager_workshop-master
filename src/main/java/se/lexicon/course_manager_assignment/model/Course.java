@@ -12,7 +12,7 @@ public class Course  {
 public String courseName() {
     this.courseName = courseName;
 }
-
+// ändring
      public int  getId()  {
     return id;
      }
