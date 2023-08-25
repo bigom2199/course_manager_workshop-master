@@ -30,12 +30,11 @@ public class StudentCollectionRepository implements StudentDao {
            if (student.getName () . contains(name)) {
            result.add(Students);
        }
-        return result;
+        return  result;
     }
     @Override
         public void Clear() {
         this.Students= new HashSet<>() ;
 
         }
-
 }

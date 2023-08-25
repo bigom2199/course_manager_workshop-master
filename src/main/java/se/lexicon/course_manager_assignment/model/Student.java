@@ -46,7 +46,7 @@ public Student (String email,String address){
 
     public void setAddress(){
     this.address=address;
-    return address
+    return address;
     }
 
 
